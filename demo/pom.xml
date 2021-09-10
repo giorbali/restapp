@@ -19,9 +19,6 @@
 		<flyway-maven-plugin.version>7.14.1</flyway-maven-plugin.version>
 	</properties>
 	<packaging>jar</packaging>
-	<build>
-		<finalName>ergo</finalName>
-	</build>
 
 	<dependencies>
 		<dependency>
@@ -104,6 +101,7 @@
 				<configuration><executable>true</executable></configuration>
 			</plugin>
 		</plugins>
+		<finalName>ergo</finalName>
 	</build>
 
 </project>
