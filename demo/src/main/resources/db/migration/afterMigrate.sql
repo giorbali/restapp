@@ -4,4 +4,7 @@ insert into Patient (id, first_name, last_name, email, phone_home, phone_work, g
 insert into Patient (id, first_name, last_name, email, phone_home, phone_work, gender, birth_date) values(4, 'George', 'Mustermann', 'George.mustermann@gmail.com', '123456789', '123456789', 'male', '1970-01-01');
 
 insert into treatment (id, patient_id, diagnos) values (1, 1, 'Covid-19');
+insert into treatment (id, patient_id, diagnos) values (2, 2, 'Covid-19');
+insert into treatment (id, patient_id, diagnos) values (3, 3, 'Covid-19');
+insert into treatment (id, patient_id, diagnos) values (4, 4, 'Covid-19');
 
