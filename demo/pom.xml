@@ -18,6 +18,11 @@
 		<flyway-core.version>7.14.1</flyway-core.version>
 		<flyway-maven-plugin.version>7.14.1</flyway-maven-plugin.version>
 	</properties>
+	<packaging>jar</packaging>
+	<build>
+		<finalName>ergo</finalName>
+	</build>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
