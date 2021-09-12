@@ -3,6 +3,7 @@ package com.bisbali.demo.models;
 import lombok.Getter;
 import lombok.Setter;
 import org.joda.time.DateTime;
+import org.springframework.hateoas.RepresentationModel;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -11,7 +12,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Table(name = "PATIENT")
-public class Patient {
+public class Patient extends RepresentationModel<Patient> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
